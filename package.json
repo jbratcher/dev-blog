@@ -1,6 +1,6 @@
 {
     "Project": {
-        "name": "webdevblog"
+        "name": "dev_blog"
     },
     "private": true,
     "scripts": {

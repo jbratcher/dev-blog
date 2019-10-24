@@ -1,22 +1,23 @@
 <?php
 
+
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use App\User;
 use App\Role;
+use App\Post;
+use App\PortfolioItem;
+use App\Tutorial;
 
 class UsersTableSeeder extends Seeder
 {
 
     public function run()
     {
-        $user = new User;
-        $user->name = 'Jeremy Bratcher';
-        $user->email = 'jeremybratcher@gmail.com';
-        $user->image_src = '/images/profile.jpg';
-        $user->password = bcrypt('Placeholder');
-        $user->intro = 'About Me';
-        $user->bio = 'Tech enthusiast with a strong eye for visual design and a knack for problem solving. Interested in UI/UX and SPA/PWAs.';
-        $user->save();
+        factory(User::class, 5)->create()->each(function ($user) {
+            $user->posts()->save(factory(Post::class)->make());
+            $user->portfolioitems()->save(factory(PortfolioItem::class)->make());
+            $user->tutorials()->save(factory(Tutorial::class)->make());
+        });
     }
 }

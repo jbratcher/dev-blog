@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('image_src')->nullable();
-            $table->string('intro')->nullable();
+            $table->string('intro')->default('About me')->nullable();
             $table->text('bio')->nullable();
             $table->rememberToken();
             $table->timestamps();
