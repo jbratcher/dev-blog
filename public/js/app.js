@@ -76048,9 +76048,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid global-banner" }, [
-      _c("h1", [_vm._v("Jeremy Bratcher")]),
+      _c("h1", [_vm._v("Adel Aneshi")]),
       _vm._v(" "),
-      _c("p", { staticClass: "lead" }, [_vm._v("Full Stack Web Developer")])
+      _c("p", { staticClass: "lead" }, [_vm._v("Dev Ops Engineer")])
     ])
   }
 ]
@@ -76376,19 +76376,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("footer", [
       _c("section", { staticClass: "container" }, [
-        _c("p", [_vm._v("Louisville, KY")]),
+        _c("p", [_vm._v("San Diego, CA")]),
         _vm._v(" "),
-        _c("p", [_vm._v("2017 - 2019")]),
+        _c("p", [_vm._v("©2019")]),
         _vm._v(" "),
         _c("p", [
           _c(
             "a",
-            {
-              attrs: {
-                href: "https://www.github.com/jbratcher",
-                target: "_blank"
-              }
-            },
+            { attrs: { href: "https://www.github.com", target: "_blank" } },
             [_c("i", { staticClass: "fab fa-github fa-2x" })]
           )
         ])
@@ -76422,9 +76417,11 @@ var render = function() {
       "nav",
       { staticClass: "navbar navbar-expand-lg navbar-light bg-light" },
       [
-        _vm._m(0),
+        _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
+          _vm._v("\n            AD\n        ")
+        ]),
         _vm._v(" "),
-        _vm._m(1),
+        _vm._m(0),
         _vm._v(" "),
         _c(
           "div",
@@ -76539,16 +76536,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
-      _c("img", {
-        attrs: { src: "/images/brand-icon.svg", alt: "Jeremy Bratcher" }
-      })
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

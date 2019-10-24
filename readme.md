@@ -1,6 +1,6 @@
 # Web Dev Blog
 
-This is the code for my own web development site which hosts my portfolio and blog.
+This is a framework/template to bootstrap your personal or professional portfolio and blog site.  Quickly spin up a slick Vue SPA with a Laravel backend.
 
 You can see it live @ [jeremybratcher.com](https://www.jeremybratcher.com).
 

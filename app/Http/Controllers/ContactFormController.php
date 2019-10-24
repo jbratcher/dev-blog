@@ -31,7 +31,7 @@ class ContactFormController extends Controller
 
         //  Send mail to mailtrap inbox
 
-        Mail::to('jeremybratcher@gmail.com')->send(new ContactMail($email));
+        Mail::to('youremail@email.com')->send(new ContactMail($email));
 
         $json = response()->json(null, 200);
 

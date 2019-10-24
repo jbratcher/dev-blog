@@ -2,10 +2,10 @@
 
     <footer>
         <section class="container">
-            <p>Louisville, KY</p>
-            <p>2017 - 2019</p>
+            <p>San Diego, CA</p>
+            <p>&copy;2019</p>
             <p>
-                <a href="https://www.github.com/jbratcher" target="_blank">
+                <a href="https://www.github.com" target="_blank">
                     <i class="fab fa-github fa-2x"></i>
                 </a>
             </p>
