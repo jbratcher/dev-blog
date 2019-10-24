@@ -10716,9 +10716,18 @@ header {
   color: #fff;
 }
 
-.navbar-brand img {
-  border-radius: 4px;
-  width: 75%;
+.navbar-light .navbar-brand {
+  background: #3C6080;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.125rem;
+}
+
+.navbar-brand {
+  background: #3C6080;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
 }
 
 .navbar-nav {
