@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('category')->default('user');
             $table->string('api_route')->default('users');
             $table->string('name');
+            $table->string('title');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

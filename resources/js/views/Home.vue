@@ -2,8 +2,8 @@
     <div class="main-container">
 
         <div class="container-fluid global-banner">
-            <h1>Adel Aneshi</h1>
-            <p class="lead">Dev Ops Engineer</p>
+            <h1>{{this.users[0].name}}</h1>
+            <p class="lead">{{this.users[0].title}}</p>
         </div>
 
         <!-- Blog  -->

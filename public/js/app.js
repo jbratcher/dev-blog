@@ -75993,7 +75993,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "main-container" }, [
-    _vm._m(0),
+    _c("div", { staticClass: "container-fluid global-banner" }, [
+      _c("h1", [_vm._v(_vm._s(this.users[0].name))]),
+      _vm._v(" "),
+      _c("p", { staticClass: "lead" }, [_vm._v(_vm._s(this.users[0].title))])
+    ]),
     _vm._v(" "),
     _c(
       "section",
@@ -76042,18 +76046,7 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid global-banner" }, [
-      _c("h1", [_vm._v("Adel Aneshi")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "lead" }, [_vm._v("Dev Ops Engineer")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
