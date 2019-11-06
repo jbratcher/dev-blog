@@ -19,7 +19,7 @@ use Faker\Generator as Faker;
 $factory->define(Tutorial::class, function (Faker $faker) {
     $title = $faker->sentence($nbWords = 6, $variableNbWords = true);
     $body = $faker->paragraph($nbSentences = 3, $variableNbSentences = true);
-    $image_id = $faker->numberBetween(1045, 1084);
+    $image_id = $faker->numberBetween(1050, 1084);
     return [
         'title' => $title,
         'body' => $body,

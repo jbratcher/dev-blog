@@ -33,9 +33,9 @@
         <!-- About -->
 
         <section class="container-fluid content-section about-intro">
-
+            <h2 class="underline">Our Team</h2>
+            <p class="lead">They're the best around</p>
             <UserAbout :users="this.users" />
-
         </section>
 
     </div>

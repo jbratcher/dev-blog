@@ -76041,7 +76041,13 @@ var render = function() {
     _c(
       "section",
       { staticClass: "container-fluid content-section about-intro" },
-      [_c("UserAbout", { attrs: { users: this.users } })],
+      [
+        _c("h2", { staticClass: "underline" }, [_vm._v("Our Team")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [_vm._v("They're the best around")]),
+        _vm._v(" "),
+        _c("UserAbout", { attrs: { users: this.users } })
+      ],
       1
     )
   ])
