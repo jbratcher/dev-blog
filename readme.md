@@ -2,8 +2,6 @@
 
 This is a framework/template to bootstrap your personal or professional portfolio and blog site.  Quickly spin up a slick Vue SPA with a Laravel backend.
 
-You can see it live @ [jeremybratcher.com](https://www.jeremybratcher.com).
-
 This project intends to create Laravel/Vue CMS for the pupose of a web developers blog and portfolio site.
 
 Some features:
@@ -20,7 +18,7 @@ One goal of this project is to create an easy to learn and modify CMS framework 
 
 Attempts have been made to write models and components in a way to allow new resources to be easilty added and components to be reusable.
 
-This is written as a monolith with the Vue SPA housed inside the Larave app.
+This is written as a monolith with the Vue SPA housed inside the Laravel app.
 
 ## Installation
 
