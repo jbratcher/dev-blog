@@ -5,14 +5,15 @@ This is a framework/template to bootstrap your personal or professional portfoli
 This project intends to create Laravel/Vue CMS for the pupose of a web developers blog and portfolio site.
 
 Some features:
-    * SPA architecture for seemless loading and transitions, better user experience
-    * Ability to add new resources to API easily by convenient naming conventions (ex. 'reesouce-item')
-    * Full CRUD operations for resources
-    * Default blog post, portfolio item, and tutorial API resources
-    * User authentication
-    * User Dashboard to create, edit, and delete resources
-    * Markdown editor for easy resource creation and editing
-    * Factory resource seeding from [picsum](picsum.com) and [pravatar](pravatar.com)
+* User authentication
+* SPA architecture for seemless loading and transitions, better user experience
+* Full CRUD operations for resources
+* Ability to add new resources to API easily by convenient naming conventions (ex. 'reesouce-item')
+* User Dashboard and CMS for resources
+* Markdown editor for easy resource creation and editing
+* Database seeders for each resource
+* Factory resource seeding from [picsum](picsum.com) and [pravatar](pravatar.com)
+* Contact form messages to email
 
 One goal of this project is to create an easy to learn and modify CMS framework that fulfills all the requriements of a professional web site for a web developer that has a blog, portfolio, and an online method of contact.
 
